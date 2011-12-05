@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9BB90F148A9D0D008BCDBB /* date_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB902148A9D0D008BCDBB /* date_bg.png */; };
+		3C9BB910148A9D0D008BCDBB /* date_selection_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB903148A9D0D008BCDBB /* date_selection_center.png */; };
+		3C9BB911148A9D0D008BCDBB /* date_selection_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB904148A9D0D008BCDBB /* date_selection_left.png */; };
+		3C9BB912148A9D0D008BCDBB /* date_selection_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB905148A9D0D008BCDBB /* date_selection_right.png */; };
+		3C9BB913148A9D0D008BCDBB /* date_wheel_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB906148A9D0D008BCDBB /* date_wheel_center.png */; };
+		3C9BB914148A9D0D008BCDBB /* date_wheel_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB907148A9D0D008BCDBB /* date_wheel_left.png */; };
+		3C9BB915148A9D0D008BCDBB /* date_wheel_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB908148A9D0D008BCDBB /* date_wheel_right.png */; };
+		3C9BB916148A9D0D008BCDBB /* date_wheel_seperated_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BB909148A9D0D008BCDBB /* date_wheel_seperated_line.png */; };
+		3CB25C351487DBE90019B023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB25C341487DBE90019B023 /* UIKit.framework */; };
+		3CB25C371487DBE90019B023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB25C361487DBE90019B023 /* Foundation.framework */; };
+		3CB25C391487DBE90019B023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB25C381487DBE90019B023 /* CoreGraphics.framework */; };
+		3CB25C3F1487DBE90019B023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CB25C3D1487DBE90019B023 /* InfoPlist.strings */; };
+		3CB25C411487DBE90019B023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C401487DBE90019B023 /* main.m */; };
+		3CB25C451487DBE90019B023 /* IDJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C441487DBE90019B023 /* IDJAppDelegate.m */; };
+		3CB25C481487DBE90019B023 /* IDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C471487DBE90019B023 /* IDJViewController.m */; };
+		3CB25C4B1487DBE90019B023 /* IDJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB25C491487DBE90019B023 /* IDJViewController.xib */; };
+		3CB25C751487DC190019B023 /* IDJCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C531487DC190019B023 /* IDJCalendar.m */; };
+		3CB25C761487DC190019B023 /* IDJCalendarUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C551487DC190019B023 /* IDJCalendarUtil.mm */; };
+		3CB25C771487DC190019B023 /* IDJChineseCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C571487DC190019B023 /* IDJChineseCalendar.mm */; };
+		3CB25C781487DC190019B023 /* IDJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C591487DC190019B023 /* IDJDatePickerView.m */; };
+		3CB25C871487DC190019B023 /* IDJPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C6B1487DC190019B023 /* IDJPickerView.m */; };
+		3CB25C881487DC190019B023 /* IDJScrollComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C6D1487DC190019B023 /* IDJScrollComponent.m */; };
+		3CB25C891487DC190019B023 /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C6F1487DC190019B023 /* ChineseCalendarDB.cpp */; };
+		3CB25C8A1487DC190019B023 /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C711487DC190019B023 /* ChineseDate.cpp */; };
+		3CB25C8B1487DC190019B023 /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C731487DC190019B023 /* SolarDate.cpp */; };
+		3CB25C8F1488C0950019B023 /* IDJTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB25C8E1488C0950019B023 /* IDJTimePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C9BB902148A9D0D008BCDBB /* date_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_bg.png; sourceTree = "<group>"; };
+		3C9BB903148A9D0D008BCDBB /* date_selection_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_center.png; sourceTree = "<group>"; };
+		3C9BB904148A9D0D008BCDBB /* date_selection_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_left.png; sourceTree = "<group>"; };
+		3C9BB905148A9D0D008BCDBB /* date_selection_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_selection_right.png; sourceTree = "<group>"; };
+		3C9BB906148A9D0D008BCDBB /* date_wheel_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_center.png; sourceTree = "<group>"; };
+		3C9BB907148A9D0D008BCDBB /* date_wheel_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_left.png; sourceTree = "<group>"; };
+		3C9BB908148A9D0D008BCDBB /* date_wheel_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_right.png; sourceTree = "<group>"; };
+		3C9BB909148A9D0D008BCDBB /* date_wheel_seperated_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date_wheel_seperated_line.png; sourceTree = "<group>"; };
+		3CB25C301487DBE90019B023 /* IDJDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDJDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB25C341487DBE90019B023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CB25C361487DBE90019B023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CB25C381487DBE90019B023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CB25C3C1487DBE90019B023 /* IDJDatePickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDJDatePickerView-Info.plist"; sourceTree = "<group>"; };
+		3CB25C3E1487DBE90019B023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CB25C401487DBE90019B023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB25C421487DBE90019B023 /* IDJDatePickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDJDatePickerView-Prefix.pch"; sourceTree = "<group>"; };
+		3CB25C431487DBE90019B023 /* IDJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDJAppDelegate.h; sourceTree = "<group>"; };
+		3CB25C441487DBE90019B023 /* IDJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDJAppDelegate.m; sourceTree = "<group>"; };
+		3CB25C461487DBE90019B023 /* IDJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDJViewController.h; sourceTree = "<group>"; };
+		3CB25C471487DBE90019B023 /* IDJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDJViewController.m; sourceTree = "<group>"; };
+		3CB25C4A1487DBE90019B023 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IDJViewController.xib; sourceTree = "<group>"; };
+		3CB25C521487DC190019B023 /* IDJCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendar.h; sourceTree = "<group>"; };
+		3CB25C531487DC190019B023 /* IDJCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJCalendar.m; sourceTree = "<group>"; };
+		3CB25C541487DC190019B023 /* IDJCalendarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJCalendarUtil.h; sourceTree = "<group>"; };
+		3CB25C551487DC190019B023 /* IDJCalendarUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJCalendarUtil.mm; sourceTree = "<group>"; };
+		3CB25C561487DC190019B023 /* IDJChineseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJChineseCalendar.h; sourceTree = "<group>"; };
+		3CB25C571487DC190019B023 /* IDJChineseCalendar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDJChineseCalendar.mm; sourceTree = "<group>"; };
+		3CB25C581487DC190019B023 /* IDJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJDatePickerView.h; sourceTree = "<group>"; };
+		3CB25C591487DC190019B023 /* IDJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJDatePickerView.m; sourceTree = "<group>"; };
+		3CB25C6A1487DC190019B023 /* IDJPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJPickerView.h; sourceTree = "<group>"; };
+		3CB25C6B1487DC190019B023 /* IDJPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJPickerView.m; sourceTree = "<group>"; };
+		3CB25C6C1487DC190019B023 /* IDJScrollComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJScrollComponent.h; sourceTree = "<group>"; };
+		3CB25C6D1487DC190019B023 /* IDJScrollComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJScrollComponent.m; sourceTree = "<group>"; };
+		3CB25C6F1487DC190019B023 /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		3CB25C701487DC190019B023 /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		3CB25C711487DC190019B023 /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		3CB25C721487DC190019B023 /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		3CB25C731487DC190019B023 /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		3CB25C741487DC190019B023 /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
+		3CB25C8D1488C0950019B023 /* IDJTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDJTimePickerView.h; sourceTree = "<group>"; };
+		3CB25C8E1488C0950019B023 /* IDJTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDJTimePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB25C2D1487DBE90019B023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB25C351487DBE90019B023 /* UIKit.framework in Frameworks */,
+				3CB25C371487DBE90019B023 /* Foundation.framework in Frameworks */,
+				3CB25C391487DBE90019B023 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9BB900148A9D0D008BCDBB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BB902148A9D0D008BCDBB /* date_bg.png */,
+				3C9BB903148A9D0D008BCDBB /* date_selection_center.png */,
+				3C9BB904148A9D0D008BCDBB /* date_selection_left.png */,
+				3C9BB905148A9D0D008BCDBB /* date_selection_right.png */,
+				3C9BB906148A9D0D008BCDBB /* date_wheel_center.png */,
+				3C9BB907148A9D0D008BCDBB /* date_wheel_left.png */,
+				3C9BB908148A9D0D008BCDBB /* date_wheel_right.png */,
+				3C9BB909148A9D0D008BCDBB /* date_wheel_seperated_line.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3CB25C251487DBE90019B023 = {
+			isa = PBXGroup;
+			children = (
+				3CB25C3A1487DBE90019B023 /* IDJDatePickerView */,
+				3CB25C331487DBE90019B023 /* Frameworks */,
+				3CB25C311487DBE90019B023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB25C311487DBE90019B023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C301487DBE90019B023 /* IDJDatePickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB25C331487DBE90019B023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C341487DBE90019B023 /* UIKit.framework */,
+				3CB25C361487DBE90019B023 /* Foundation.framework */,
+				3CB25C381487DBE90019B023 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CB25C3A1487DBE90019B023 /* IDJDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C8C1488C0760019B023 /* timepicker */,
+				3CB25C511487DC190019B023 /* datepicker */,
+				3CB25C691487DC190019B023 /* pickerview */,
+				3CB25C6E1487DC190019B023 /* solar_chinese_calendar */,
+				3CB25C431487DBE90019B023 /* IDJAppDelegate.h */,
+				3CB25C441487DBE90019B023 /* IDJAppDelegate.m */,
+				3CB25C461487DBE90019B023 /* IDJViewController.h */,
+				3CB25C471487DBE90019B023 /* IDJViewController.m */,
+				3CB25C491487DBE90019B023 /* IDJViewController.xib */,
+				3CB25C3B1487DBE90019B023 /* Supporting Files */,
+			);
+			path = IDJDatePickerView;
+			sourceTree = "<group>";
+		};
+		3CB25C3B1487DBE90019B023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C3C1487DBE90019B023 /* IDJDatePickerView-Info.plist */,
+				3CB25C3D1487DBE90019B023 /* InfoPlist.strings */,
+				3CB25C401487DBE90019B023 /* main.m */,
+				3CB25C421487DBE90019B023 /* IDJDatePickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CB25C511487DC190019B023 /* datepicker */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C521487DC190019B023 /* IDJCalendar.h */,
+				3CB25C531487DC190019B023 /* IDJCalendar.m */,
+				3CB25C541487DC190019B023 /* IDJCalendarUtil.h */,
+				3CB25C551487DC190019B023 /* IDJCalendarUtil.mm */,
+				3CB25C561487DC190019B023 /* IDJChineseCalendar.h */,
+				3CB25C571487DC190019B023 /* IDJChineseCalendar.mm */,
+				3CB25C581487DC190019B023 /* IDJDatePickerView.h */,
+				3CB25C591487DC190019B023 /* IDJDatePickerView.m */,
+			);
+			path = datepicker;
+			sourceTree = "<group>";
+		};
+		3CB25C691487DC190019B023 /* pickerview */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BB900148A9D0D008BCDBB /* images */,
+				3CB25C6A1487DC190019B023 /* IDJPickerView.h */,
+				3CB25C6B1487DC190019B023 /* IDJPickerView.m */,
+				3CB25C6C1487DC190019B023 /* IDJScrollComponent.h */,
+				3CB25C6D1487DC190019B023 /* IDJScrollComponent.m */,
+			);
+			path = pickerview;
+			sourceTree = "<group>";
+		};
+		3CB25C6E1487DC190019B023 /* solar_chinese_calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C6F1487DC190019B023 /* ChineseCalendarDB.cpp */,
+				3CB25C701487DC190019B023 /* ChineseCalendarDB.h */,
+				3CB25C711487DC190019B023 /* ChineseDate.cpp */,
+				3CB25C721487DC190019B023 /* ChineseDate.h */,
+				3CB25C731487DC190019B023 /* SolarDate.cpp */,
+				3CB25C741487DC190019B023 /* SolarDate.h */,
+			);
+			path = solar_chinese_calendar;
+			sourceTree = "<group>";
+		};
+		3CB25C8C1488C0760019B023 /* timepicker */ = {
+			isa = PBXGroup;
+			children = (
+				3CB25C8D1488C0950019B023 /* IDJTimePickerView.h */,
+				3CB25C8E1488C0950019B023 /* IDJTimePickerView.m */,
+			);
+			name = timepicker;
+			path = IDJDatePickerView/timepicker;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB25C2F1487DBE90019B023 /* IDJDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB25C4E1487DBE90019B023 /* Build configuration list for PBXNativeTarget "IDJDatePickerView" */;
+			buildPhases = (
+				3CB25C2C1487DBE90019B023 /* Sources */,
+				3CB25C2D1487DBE90019B023 /* Frameworks */,
+				3CB25C2E1487DBE90019B023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDJDatePickerView;
+			productName = IDJDatePickerView;
+			productReference = 3CB25C301487DBE90019B023 /* IDJDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB25C271487DBE90019B023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3CB25C2A1487DBE90019B023 /* Build configuration list for PBXProject "IDJDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CB25C251487DBE90019B023;
+			productRefGroup = 3CB25C311487DBE90019B023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB25C2F1487DBE90019B023 /* IDJDatePickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB25C2E1487DBE90019B023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB25C3F1487DBE90019B023 /* InfoPlist.strings in Resources */,
+				3CB25C4B1487DBE90019B023 /* IDJViewController.xib in Resources */,
+				3C9BB90F148A9D0D008BCDBB /* date_bg.png in Resources */,
+				3C9BB910148A9D0D008BCDBB /* date_selection_center.png in Resources */,
+				3C9BB911148A9D0D008BCDBB /* date_selection_left.png in Resources */,
+				3C9BB912148A9D0D008BCDBB /* date_selection_right.png in Resources */,
+				3C9BB913148A9D0D008BCDBB /* date_wheel_center.png in Resources */,
+				3C9BB914148A9D0D008BCDBB /* date_wheel_left.png in Resources */,
+				3C9BB915148A9D0D008BCDBB /* date_wheel_right.png in Resources */,
+				3C9BB916148A9D0D008BCDBB /* date_wheel_seperated_line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB25C2C1487DBE90019B023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB25C411487DBE90019B023 /* main.m in Sources */,
+				3CB25C451487DBE90019B023 /* IDJAppDelegate.m in Sources */,
+				3CB25C481487DBE90019B023 /* IDJViewController.m in Sources */,
+				3CB25C751487DC190019B023 /* IDJCalendar.m in Sources */,
+				3CB25C761487DC190019B023 /* IDJCalendarUtil.mm in Sources */,
+				3CB25C771487DC190019B023 /* IDJChineseCalendar.mm in Sources */,
+				3CB25C781487DC190019B023 /* IDJDatePickerView.m in Sources */,
+				3CB25C871487DC190019B023 /* IDJPickerView.m in Sources */,
+				3CB25C881487DC190019B023 /* IDJScrollComponent.m in Sources */,
+				3CB25C891487DC190019B023 /* ChineseCalendarDB.cpp in Sources */,
+				3CB25C8A1487DC190019B023 /* ChineseDate.cpp in Sources */,
+				3CB25C8B1487DC190019B023 /* SolarDate.cpp in Sources */,
+				3CB25C8F1488C0950019B023 /* IDJTimePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB25C3D1487DBE90019B023 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB25C3E1487DBE90019B023 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CB25C491487DBE90019B023 /* IDJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB25C4A1487DBE90019B023 /* en */,
+			);
+			name = IDJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB25C4C1487DBE90019B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CB25C4D1487DBE90019B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB25C4F1487DBE90019B023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDJDatePickerView/IDJDatePickerView-Prefix.pch";
+				INFOPLIST_FILE = "IDJDatePickerView/IDJDatePickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CB25C501487DBE90019B023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDJDatePickerView/IDJDatePickerView-Prefix.pch";
+				INFOPLIST_FILE = "IDJDatePickerView/IDJDatePickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB25C2A1487DBE90019B023 /* Build configuration list for PBXProject "IDJDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB25C4C1487DBE90019B023 /* Debug */,
+				3CB25C4D1487DBE90019B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB25C4E1487DBE90019B023 /* Build configuration list for PBXNativeTarget "IDJDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB25C4F1487DBE90019B023 /* Debug */,
+				3CB25C501487DBE90019B023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB25C271487DBE90019B023 /* Project object */;
+}
